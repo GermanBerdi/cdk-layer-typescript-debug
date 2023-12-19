@@ -1,6 +1,10 @@
 # CDK in typescript with Lambda and Layers
 The aim of this practice is reach a CDK in typescript with Lambda and Layers deployement. Also to have debug in local enabled for a better development experience.
 
+## Useful commands
+
+* `npm run build`     compile typescript to javascript
+* `npm run rebuild`   delete javascript files and compile typescript to javascript
 
 # Steps from scratch
 1- `mkdir cdk-layer-typescript-debug`
@@ -26,4 +30,6 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 20- `tsc --init`
 21- Commit number 11: - Add tsconfig.json
 22- Commit number 12: - Setting target, outdir, include in tsconfig.json
-23- 
+23- Add scripts in package.json
+24- Add Useful commands section to README.md
+24- Commit number 13: - Add build and rebuild npm commands

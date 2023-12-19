@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "tsc",
+    "rebuild": "rm -f -r ./build && tsc"
+  },
   "devDependencies": {
     "typescript": "^5.3.3"
   }
