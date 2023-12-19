@@ -3,3 +3,5 @@ node_modules
 !src/**/node_modules
 
 build
+
+cdk.out

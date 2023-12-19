@@ -5,6 +5,9 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 
 * `npm run build`     compile typescript to javascript
 * `npm run rebuild`   delete javascript files and compile typescript to javascript
+* `npm run synth`     emits the synthesized CloudFormation template
+* `npm run deploy`    deploy this stack to your default AWS account/region
+* `npm run destroy`   destroy this stack
 
 # Steps from scratch
 1- `mkdir cdk-layer-typescript-debug`
@@ -43,3 +46,9 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 33- `npm install aws-cdk-lib`
 34- Commit number 16: - Installing aws-cdk-lib
 35- Commit number 17: - Add launcher for cdk stack deployement
+37- `npm install aws-cdk`
+38- `npm install --save-dev ts-node`
+39- Add synth, deploy and destroy scripts
+40- `npm run synth`
+41- Add cdk.out to .gitignore
+42- Commit number 18: - Synth cdk template

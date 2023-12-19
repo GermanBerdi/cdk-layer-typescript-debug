@@ -1,12 +1,17 @@
 {
   "scripts": {
     "build": "tsc",
-    "rebuild": "rm -f -r ./build && tsc"
+    "rebuild": "rm -f -r ./build && tsc",
+    "synth": "cdk synth > template.yml",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
   },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "aws-cdk": "^2.115.0",
     "aws-cdk-lib": "^2.115.0"
   }
 }
