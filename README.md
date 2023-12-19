@@ -3,11 +3,12 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 
 ## Useful commands
 
-* `npm run build`     compile typescript to javascript
-* `npm run rebuild`   delete javascript files and compile typescript to javascript
-* `npm run synth`     emits the synthesized CloudFormation template
-* `npm run deploy`    deploy this stack to your default AWS account/region
-* `npm run destroy`   destroy this stack
+* `npm run build`       compile typescript to javascript
+* `npm run rebuild`     delete javascript files and compile typescript to javascript
+* `npm run synth`       emits the synthesized CloudFormation template
+* `npm run deploy`      deploy this stack to your default AWS account/region
+* `npm run deployLayer` rebuild and deploy TypescriptDebugLayersStack" to your default AWS account/region
+* `npm run destroy`     destroy this stack
 
 # Steps from scratch
 1- `mkdir cdk-layer-typescript-debug`
@@ -69,3 +70,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 57- Setting layer1 path as external module in lambda1
 58- Commit number 23: Accessing lambda1 import code from layer1
 59- Commit number 24: Making layer1 path accesible for debug
+60- Commit number 25: Add deployLayer script

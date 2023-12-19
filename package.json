@@ -4,6 +4,7 @@
     "rebuild": "rm -f -r ./build && tsc",
     "synth": "cdk synth > template.yml",
     "deploy": "cdk deploy",
+    "deployLayer": "npm run rebuild && cdk deploy TypescriptDebugLayersStack",
     "destroy": "cdk destroy"
   },
   "devDependencies": {
