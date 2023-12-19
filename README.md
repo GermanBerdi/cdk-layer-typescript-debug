@@ -36,3 +36,6 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 26- Moving debug folder inside src to be transpiled when executing npm build command
 27- Add build to .gitignored
 28- Commit number 14: - Preparing debug folder to be transpiled
+29- Setting program, outFiles, preLaunchTask in launch.json
+30- Setting sourceMap in tsconfig.json
+31- Commit number 15: - Debug environment with typescript ready
