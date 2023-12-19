@@ -19,5 +19,7 @@ const app = new App();
 Tags.of(app).add("UserName",userName);
 Tags.of(app).add("Project","typescript-debug");
 
-const lambdasStack = new LambdasStack(app, "TypescriptDebugLambdasStack");
-const layerStack = new LayersStack(app,"TypescriptDebugLayersStack");
+const layersStack = new LayersStack(app,"TypescriptDebugLayersStack");
+const lambdasStack = new LambdasStack(app, "TypescriptDebugLambdasStack", {
+  layer1: layersStack.layer1
+});

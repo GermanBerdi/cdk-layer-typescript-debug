@@ -61,3 +61,6 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 49- `npm install --save-dev esbuild`
 50- Commit number 20: - Lambda1 deployement ready
 51- Commit number 21: - Add layersStack
+52- Making layer1 from layersStack public
+53- Add layer1 refrence as props to lambdasStack
+54- Commit number 22: Give lambda1 access to layer1
