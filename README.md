@@ -57,6 +57,7 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 45- Copy envexample as .env file
 46- Add .env to .gitignore
 47- Commit number 19: - Improving cdk tag using .env
-48- Add lambdasStacks
+48- Add lambdasStack
 49- `npm install --save-dev esbuild`
 50- Commit number 20: - Lambda1 deployement ready
+51- Commit number 21: - Add layersStack

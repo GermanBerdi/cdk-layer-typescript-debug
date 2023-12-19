@@ -3,6 +3,7 @@
 import * as dotenv from "dotenv"
 import { App, Tags } from "aws-cdk-lib";
 import { LambdasStack } from "./stacks/lambdasStack";
+import { LayersStack } from "./stacks/layersStack"
 
 dotenv.config();
 
@@ -18,4 +19,5 @@ const app = new App();
 Tags.of(app).add("UserName",userName);
 Tags.of(app).add("Project","typescript-debug");
 
-const lambdasStack = new LambdasStack(app, "TypescriptDebugStack");
+const lambdasStack = new LambdasStack(app, "TypescriptDebugLambdasStack");
+const layerStack = new LayersStack(app,"TypescriptDebugLayersStack");
