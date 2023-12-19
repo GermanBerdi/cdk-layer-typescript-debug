@@ -71,3 +71,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 58- Commit number 23: Accessing lambda1 import code from layer1
 59- Commit number 24: Making layer1 path accesible for debug
 60- Commit number 25: Add deployLayer script
+70- Commit number 26: Add layer 2

@@ -5,7 +5,8 @@ import { Construct } from "constructs";
 import { join } from "path";
 
 interface LambdasStackProps extends StackProps {
-  layer1: ILayerVersion
+  layer1: ILayerVersion,
+  layer2: ILayerVersion
 }
 
 export class LambdasStack extends Stack {
@@ -17,9 +18,9 @@ export class LambdasStack extends Stack {
       runtime:Runtime.NODEJS_18_X,
       entry: join(__dirname, "..", "..", "services", "lambdas", "lambda1", "handler.ts"),
       handler: "handler",
-      layers: [props.layer1],
+      layers: [props.layer1,props.layer2],
       bundling: {
-        externalModules: ["layer1"],
+        externalModules: ["layer1","layer2"],
       },
     })
 

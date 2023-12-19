@@ -31,6 +31,7 @@
     "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
     "paths": {                                           /* Specify a set of entries that re-map imports to additional lookup locations. */
       "layer1": ["./src/services/layers/layer1/nodejs/node_modules/layer1"],
+      "layer2": ["./src/services/layers/layer2/nodejs/node_modules/layer2"],
     },
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */
