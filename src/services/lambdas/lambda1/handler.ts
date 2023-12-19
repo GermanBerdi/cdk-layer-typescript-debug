@@ -1,4 +1,4 @@
-import { double } from "../../layers/layer1/nodejs/node_modules/layer1";
+import { double } from "layer1";
 
 export function handler ():void {
   const myNum = 20;

@@ -18,6 +18,9 @@ export class LambdasStack extends Stack {
       entry: join(__dirname, "..", "..", "services", "lambdas", "lambda1", "handler.ts"),
       handler: "handler",
       layers: [props.layer1],
+      bundling: {
+        externalModules: ["layer1"],
+      },
     })
 
   }

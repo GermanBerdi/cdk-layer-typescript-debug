@@ -64,3 +64,8 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 52- Making layer1 from layersStack public
 53- Add layer1 refrence as props to lambdasStack
 54- Commit number 22: Give lambda1 access to layer1
+55- Add layer 1 path in tsconfig.json
+56- Setting layer1 path in lambda1 as expected in AWS Lambda Environment
+57- Setting layer1 path as external module in lambda1
+58- Commit number 23: Accessing lambda1 import code from layer1
+
