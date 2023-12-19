@@ -1,5 +1,8 @@
+const layer1 = require("../../layers/layer1/layer1");
+
 function handler () {
-    console.log ("Hello from lambda1");
+  const myNum = 20;
+  console.log (`The double of ${myNum} is ${layer1.double(myNum)}`);
 }
 
 exports.handler = handler;
