@@ -25,3 +25,5 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 19- Commit number 10: - Implementing launcher in typescript
 20- `tsc --init`
 21- Commit number 11: - Add tsconfig.json
+22- Commit number 12: - Setting target, outdir, include in tsconfig.json
+23- 
