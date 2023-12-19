@@ -11,3 +11,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 6- Publish main branch
 7- Commit number 2: - Add simple javascript function
 8- Commit number 3: - Add launcher.js to call handler from lambda1
+9- Commit number 4: - Add launch.json
