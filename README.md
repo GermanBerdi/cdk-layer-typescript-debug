@@ -42,3 +42,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 32- Add cdk.json
 33- `npm install aws-cdk-lib`
 34- Commit number 16: - Installing aws-cdk-lib
+35- Commit number 17: - Add launcher for cdk stack deployement
