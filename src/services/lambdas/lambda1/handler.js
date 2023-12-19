@@ -1,4 +1,4 @@
-const layer1 = require("../../layers/layer1/layer1");
+const layer1 = require("../../layers/layer1/nodejs/node_modules/layer1");
 
 function handler () {
   const myNum = 20;

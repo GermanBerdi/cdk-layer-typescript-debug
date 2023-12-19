@@ -2,7 +2,7 @@
 The aim of this practice is reach a CDK in typescript with Lambda and Layers deployement. Also to have debug in local enabled for a better development experience.
 
 
-# Step from scratch
+# Steps from scratch
 1- `mkdir cdk-layer-typescript-debug`
 2- `git init`
 3- Commit number 1: - Create README.md
@@ -12,4 +12,5 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 7- Commit number 2: - Add simple javascript function
 8- Commit number 3: - Add launcher.js to call handler from lambda1
 9- Commit number 4: - Add launch.json
-10- Commit number 5: -- Add simple "javascript library" layer1
+10- Commit number 5: - Add simple "javascript library" layer1
+11- Commit number 6: - Moving layer1 to CDK layers expected structure
