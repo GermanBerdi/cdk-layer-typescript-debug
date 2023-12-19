@@ -15,3 +15,7 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 10- Commit number 5: - Add simple "javascript library" layer1
 11- Commit number 6: - Moving layer1 to CDK layers expected structure
 12- Commit number 7: - Indent fix on launch.json
+13- `npm install -D typescript`
+14- Create .gitignore
+15- Add node_modules to .gitignore
+16- Commit number 8: - Installing typescript
