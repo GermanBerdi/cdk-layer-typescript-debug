@@ -14,3 +14,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 9- Commit number 4: - Add launch.json
 10- Commit number 5: - Add simple "javascript library" layer1
 11- Commit number 6: - Moving layer1 to CDK layers expected structure
+12- Commit number 7: - Indent fix on launch.json
