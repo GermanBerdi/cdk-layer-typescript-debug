@@ -1,4 +1,4 @@
-import { handler as handler1} from "../src/services/lambdas/lambda1/handler";
+import { handler as handler1} from "../services/lambdas/lambda1/handler";
 
 console.log("Starting debug session");
 handler1();

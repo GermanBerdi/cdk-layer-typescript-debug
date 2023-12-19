@@ -1,3 +1,5 @@
 node_modules
 ### node_modules inside CDK layers structure shouldn´t be ignored
 !src/**/node_modules
+
+build

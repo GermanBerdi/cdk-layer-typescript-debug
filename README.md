@@ -32,4 +32,7 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 22- Commit number 12: - Setting target, outdir, include in tsconfig.json
 23- Add scripts in package.json
 24- Add Useful commands section to README.md
-24- Commit number 13: - Add build and rebuild npm commands
+25- Commit number 13: - Add build and rebuild npm commands
+26- Moving debug folder inside src to be transpiled when executing npm build command
+27- Add build to .gitignored
+28- Commit number 14: - Preparing debug folder to be transpiled
