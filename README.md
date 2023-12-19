@@ -10,3 +10,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 5- `git remote add origin https://github.com/GermanBerdi/cdk-layer-typescript-debug.git`
 6- Publish main branch
 7- Commit number 2: - Add simple javascript function
+8- Commit number 3: - Add launcher.js to call handler from lambda1
