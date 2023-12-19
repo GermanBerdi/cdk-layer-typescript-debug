@@ -23,3 +23,5 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 17- add !src/**/node_modules to .gitignore
 18- Commit number 9: - Implementing lambda1 and layer1 in typescript
 19- Commit number 10: - Implementing launcher in typescript
+20- `tsc --init`
+21- Commit number 11: - Add tsconfig.json
