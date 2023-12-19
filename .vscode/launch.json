@@ -14,6 +14,9 @@
       "program": "${workspaceFolder}/build/debug/launcher.js",
       "outFiles": ["${workspaceFolder}/build/**/*.js"],
       "preLaunchTask": "npm: build",
+      "env": {
+        "NODE_PATH": "${workspaceFolder}/build/services/layers/layer1/nodejs/node_modules"
+      }
     }
   ]
 }

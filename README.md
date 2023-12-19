@@ -68,4 +68,4 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 56- Setting layer1 path in lambda1 as expected in AWS Lambda Environment
 57- Setting layer1 path as external module in lambda1
 58- Commit number 23: Accessing lambda1 import code from layer1
-
+59- Commit number 24: Making layer1 path accesible for debug
