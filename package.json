@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "aws-cdk": "^2.115.0",
-    "aws-cdk-lib": "^2.115.0"
+    "aws-cdk-lib": "^2.115.0",
+    "dotenv": "^16.3.1"
   }
 }

@@ -52,3 +52,8 @@ The aim of this practice is reach a CDK in typescript with Lambda and Layers dep
 40- `npm run synth`
 41- Add cdk.out to .gitignore
 42- Commit number 18: - Synth cdk template
+43- `npm install dotenv`
+44- Create env.example
+45- Copy envexample as .env file
+46- Add .env to .gitignore
+47- Commit number 19: - Improving cdk tag using .env
